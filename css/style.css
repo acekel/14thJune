@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px;
+    background-color: rgb(36, 140, 126);
+}
+
+.logo--box img{
+    width: 250px;
+}
+
+.navbar__right ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 10px 10px;
+    border: 1px solid navy;
+}
+
+.nav__list{
+}
+.nav__items a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar{
+        padding: 10px;
+    }
+    .navbar__right ul li{
+        padding: 0;
+    }
+}
